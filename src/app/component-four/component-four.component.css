@@ -1,0 +1,181 @@
+
+.main-container{
+  display: flex;
+  width: 99vw;
+  height: 100vh;
+  background-color: rgb(240, 240, 240);
+  flex-flow: column;
+  }
+.container-header{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 5rem;
+  width: 100%;
+}
+.container-header h1{
+  font-weight: bold;
+  font-size: 2.3rem;
+  font-family: Montserrat;
+}
+.section-border{
+  margin-top: -2rem;
+  width: 30rem;
+  height: 6rem;
+  background: url(https://ibid.modeltheme.com/automotive/wp-content/uploads/2019/10/section-border.png) no-repeat center center;
+}
+.logo-container{
+  display: flex;
+  justify-content:space-evenly;
+  margin-top: 2rem;
+}
+.alignnone{
+  width: 12vw;
+}
+.tavbar-footer{
+  width: 99vw;
+  height: 14vh;
+  background-color: #ee964b;
+  position: relative;
+  top: 13vh;
+  display: flex;
+  justify-content: space-between;
+}
+.tavbar-footer p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.65rem;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: Montserrat;
+  position: relative;
+  left: 5.5vw;
+}
+.search-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 6vw;
+}
+.ipt-search{
+  width: 25rem;
+  height: 3rem;
+  border: none;
+  border-left: 1px solid rgb(202, 202, 202);
+  box-shadow: 0 0 1rem rgb(223, 223, 223);
+  outline: none;
+  border-radius: 2rem 0 0 2rem;
+}
+.ipt-search::placeholder{
+  color: rgb(153, 152, 152);
+  position: relative;
+  left: 1rem;
+  opacity: 0.7;
+}
+.btn-search{
+  width: 3rem;
+  height: 3rem;
+  background-color: #747474;
+  border-radius: 50%;
+  border: none;
+  margin-left: -1.3rem;
+  outline: none;
+}
+.btn-search i{
+  color: #ffffff;
+}
+.btn-search:hover{
+  background-color: #d1d1d1;
+}
+.container-infor-contact{
+  display: flex;
+  position: relative;
+  top: 15vh;
+  padding-top: 10vh;
+  justify-content: space-around;
+  background-color: #f8f6f6;
+  height: 40vh;
+
+}
+.contact-logo a img{
+  width: 7vw;
+  margin-bottom: 1rem;
+}
+.contact-logo p{
+  font-family: Montserrat;
+  font-size: 1.1rem;
+  opacity: 0.6;
+}
+.phoneNumber{
+  margin-top: -0.8rem;
+}
+.logo-network{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -0.8rem;
+}
+.logo-network a{
+  color: #ee964b;
+}
+.logo-network a:hover{
+  color: #353434;
+}
+.infor-contact{
+  display: flex;
+  flex-flow: column;
+}
+.infor-contact a{
+  color: #747474;
+  opacity: 0.9;
+  margin-left: 0.4rem;
+  margin-bottom: 0.5rem;
+  font-family: Montserrat;
+  font-size: 1.1rem;
+}
+.infor-contact h1{
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-top: -0.7rem;
+  opacity: 0.8;
+  font-size: 2rem;
+}
+.ipt-email{
+  margin-top: 0.7rem;
+  width: 13vw;
+  height: 6vh;
+  background-color: #ffffff;
+  border-radius: 2rem;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 1rem rgb(206, 206, 206);
+}
+.ipt-email::placeholder
+{
+  padding-left: 1rem;
+  font-size: 1.1rem;
+  font: Monaco, MonoSpace;
+  color: #bebdbd;
+}
+.group-input-submit{
+  display: flex;
+}
+.btn-email{
+  width: 7vw;
+  height: 6.3vh;
+  position: relative;
+  top: 0.7rem;
+  border-radius: 2rem;
+  left: -2.5rem;
+  background-color: #474747;
+  color: #ffffff;
+  font-family: Montserrat;
+  border: none;
+  font-weight: bold;
+  font-size: 0.8rem;
+  outline: none;
+}
+.btn-email:hover{
+  background-color: #ee964b;
+}
